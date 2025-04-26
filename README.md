@@ -1,4 +1,4 @@
-# Tonkeeper Wallet API
+tab# Tonkeeper Wallet API
 
 * [Definitions](#definitions)
 * [Payment URLs](#payment-urls)
@@ -31,7 +31,7 @@ with some root of trust. The trust could be linked to the Certificate Authority 
 
 The object’s origin has a verified chain of trust.
 
-#### Unauthenticated object
+esc#### Unauthenticated object
 
 The object’s origin is unknown and must be verified by the user through some other means unavailable to the wallet application.
 
@@ -271,7 +271,7 @@ Transaction request must be discarded if the local time is greater than the `exp
 }
 ```
 
-#### Response Options
+tab#### Response Options
 
 There could be several ways (not mutually exclusive) to respond to the transaction request:
 
